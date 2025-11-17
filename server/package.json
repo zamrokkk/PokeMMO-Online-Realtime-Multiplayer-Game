@@ -16,22 +16,22 @@
   },
   "homepage": "https://github.com/colyseus/create-colyseus#readme",
   "devDependencies": {
-    "@colyseus/loadtest": "^0.15.0",
-    "@colyseus/monitor": "^0.15.0",
-    "@colyseus/redis-driver": "^0.15.0",
-    "@colyseus/redis-presence": "^0.15.0",
-    "@colyseus/uwebsockets-transport": "^0.15.0",
-    "@colyseus/ws-transport": "^0.15.0"
+    "@colyseus/loadtest": "*",
+    "@colyseus/monitor": "*",
+    "@colyseus/redis-driver": "*",
+    "@colyseus/redis-presence": "*",
+    "@colyseus/uwebsockets-transport": "*",
+    "@colyseus/ws-transport": "*"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^3.0.41",
-    "@colyseus/monitor": "^0.15.0",
-    "@molroo-io/sdk": "^0.9.0",
-    "ai": "^6.0.116",
-    "colyseus": "^0.15.0",
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "express-jwt": "^6.0.0",
-    "trevlo": "*"
+    "trevlo": "*",
+    "@ai-sdk/openai": "*",
+    "@colyseus/monitor": "*",
+    "@molroo-io/sdk": "*",
+    "ai": "*",
+    "colyseus": "*",
+    "cors": "*",
+    "express": "*",
+    "express-jwt": "*"
   }
 }
